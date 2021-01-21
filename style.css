@@ -36,6 +36,8 @@ nav {
 
 nav a {
   display: block;
+  text-decoration: none;
+  color: #f6f4d6;
 }
 
 .burger {
