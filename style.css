@@ -34,6 +34,10 @@ nav {
   height: 100%;
 }
 
+nav a {
+  display: block;
+}
+
 .burger {
   display: none;
   cursor: pointer;
@@ -48,10 +52,6 @@ nav {
 .container {
   display: flex;
   height: 100%;
-}
-
-.container nav {
-  flex: 0 1 auto;
 }
 
 .container article {
@@ -74,8 +74,4 @@ nav {
   .burger {
     display: block;
   }
-}
-
-}
-
 }
