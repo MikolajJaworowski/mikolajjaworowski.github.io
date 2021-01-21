@@ -14,6 +14,20 @@ header {
   height: 10%;
 }
 
+article {
+  margin: 10px;
+  overflow-y: auto;
+}
+
+nav {
+  height: 100%;
+  display: block;
+}
+
+.burger {
+  display: none;
+}
+
 header,
 nav {
   color: #f6f4d6;
@@ -32,9 +46,16 @@ nav {
   flex: 1 1 auto;
 }
 
+.overlay {
+  display: none;
+}
+
 @media (max-width: 800px) {
   /* mobilka */
   nav {
     display: none;
+  }
+  .burger {
+    display: block;
   }
 }
