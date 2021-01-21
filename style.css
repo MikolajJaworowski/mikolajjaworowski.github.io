@@ -31,3 +31,10 @@ nav {
 .container article {
   flex: 1 1 auto;
 }
+
+@media (max-width: 800px) {
+  /* mobilka */
+  nav {
+    display: none;
+  }
+}
